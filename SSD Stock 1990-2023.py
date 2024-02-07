@@ -74,7 +74,7 @@ index_w5=index_w4[['Coca-Cola_ret_y','Pepsi_ret_y','Monster_ret_y','Year']]
 
 index_w5.plot(x='Year', y=['Coca-Cola_ret_y','Pepsi_ret_y','Monster_ret_y'], kind='line', linewidth=1, color=['red','blue','green']) 
 plt.xlabel('Year', fontsize=10)
-plt.ylabel('Monthly return', fontsize=10)
+plt.ylabel('Yearly return', fontsize=10)
 plt.title('Index Yearly Return', fontsize=10)
 plt.legend(['Coca-Cola_ret_y','Pepsi_ret_y','Monster_ret_y'], fontsize=10)
 
